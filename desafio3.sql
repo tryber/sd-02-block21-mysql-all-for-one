@@ -1,3 +1,3 @@
-DESCRIBE products;
+DESCRIBE northwind.products;
 
-SELECT id FROM products;
+SELECT id FROM northwind.products;
