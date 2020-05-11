@@ -74,7 +74,7 @@ Hoje você fará um projeto com o codinome *All For One* em que praticará todos
 
 # Instruções para restaurar o banco de dados `Northwind`
 
-1. Faça o download do arquivo de backup [aqui](northwind.sql) clicando com botão direito e selecionando "Salvar como" para salvar o arquivo em seu computador.
+1. Faça o download do arquivo de backup [aqui](northwind.sql) clicando em "Raw", depois clicando com botão direito e selecionando "Salvar como" para salvar o arquivo em seu computador.
 2. Abra o arquivo com algum editor de texto, e selecione todo o conteúdo do arquivo usando `CTRL-A`.
 3. Abra o MySQL Workbench.
 4. Abra uma nova janela de query e cole dentro dela todo o conteúdo do arquivo `northwind.sql`.
@@ -143,8 +143,8 @@ Monte queries para encontrar as seguintes informações:
 22. Atualize os dados de `discount` do `order_details` para 15.
 23. Atualize os dados de `discount` da tabela `order_details` para 30 cuja `unit_price` seja menor que 10.0000.
 24. Atualize os dados de discount da tabela `order_details` para 45 cuja `unit_price` seja maior que 10.0000 e o id seja um número entre 30 a 40.
-25. Delete todos os dados em que a `unit_price` seja menor que 10.0000.
-26. Delete todos os dados em que a `unit_price` seja maior que 10.0000.
+25. Delete todos os dados em que a `unit_price` da tabela `order_details` seja menor que 10.0000.
+26. Delete todos os dados em que a `unit_price` da tabela `order_details` seja maior que 10.0000.
 27. Delete todos os dados da tabela `order_details`.
 
 ---
