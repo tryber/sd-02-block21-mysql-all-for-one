@@ -1,1 +1,1 @@
-SELECT * FROM northwind.products LIMIT 9 OFFSET 4;
+SELECT product_name, id FROM northwind.products ORDER BY product_name;

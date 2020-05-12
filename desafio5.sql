@@ -1,1 +1,1 @@
-SELECT COUNT(product_name) FROM northwind.products;
+SELECT * FROM northwind.products LIMIT 9 OFFSET 4;
