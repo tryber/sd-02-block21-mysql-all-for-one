@@ -1,0 +1,1 @@
+TRUNCATE northwind.ordeorder_detailsorder_detailsr_details;
