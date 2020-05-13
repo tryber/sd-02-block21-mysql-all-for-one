@@ -1,1 +1,1 @@
-TRUNCATE northwind.ordeorder_detailsorder_detailsr_details;
+TRUNCATE northwind.order_details;
