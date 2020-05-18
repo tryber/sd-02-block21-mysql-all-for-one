@@ -1,1 +1,3 @@
-select submitted_date from northwind.purchase_orders where submitted_date = '2006-01-14';
+select submitted_date 
+from northwind.purchase_orders 
+where date(submitted_date) = '2006-01-14';
