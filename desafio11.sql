@@ -3,6 +3,4 @@ SELECT
 FROM
     northwind.purchase_orders
 WHERE
-    notes IS NOT NULL
-ORDER BY notes
-LIMIT 5;
+    notes LIKE '%#3_';
